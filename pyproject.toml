@@ -30,7 +30,6 @@ sphinx_rtd_theme = "2.0.0"
 myst-parser = "^2.0.0"
 pydocstyle = "^6.3.0"
 cython = "^3.0.2"
-pre-commit = "^3.4.0"
 
 [tool.pytest.ini_options]
 minversion = "7.1.1"
@@ -51,7 +50,7 @@ line-length = 88
 target-version = "py310"
 src = ["src", "tests", "docs"]
 select = ["F", "E", "W", "C90", "S", "I", "N", "D", "UP"]
-ignore = ["D100", "D104", "D106"]
+ignore = ["N999", "D100", "D104", "D106"]
 
 [tool.ruff.pydocstyle]
 convention = "pep257"
