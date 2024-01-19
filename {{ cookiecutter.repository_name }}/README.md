@@ -39,24 +39,14 @@ package:
 poetry build
 ```
 
-## run
+## usage
 
-template:
+run:
 ```shell
 cookiecutter https://github.com/generic-infrastructure/cookiecutter-terragrunt
 ```
 
 test:
-```shell
-pytest .
-```
-
-coverage:
-```shell
-coverage run -m pytest && coverage report -m
-```
-
-matrix:
 ```shell
 tox run
 ```
@@ -69,19 +59,4 @@ make -C docs html
 check:
 ```shell
 pre-commit run
-```
-
-format:
-```shell
-black .
-```
-
-lint:
-```shell
-ruff .
-```
-
-type:
-```shell
-mypy .
 ```
