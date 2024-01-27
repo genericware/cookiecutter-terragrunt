@@ -46,7 +46,7 @@ line-length = 88
 target-version = "py310"
 src = ["src", "tests", "docs"]
 select = ["F", "E", "W", "C90", "S", "I", "N", "D", "UP"]
-ignore = ["D100", "D104", "D106", "N999"]
+ignore = ["D100", "D104", "D106"]
 
 [tool.ruff.pydocstyle]
 convention = "pep257"
