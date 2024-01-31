@@ -32,7 +32,7 @@ poetry install --without dev
 ## build
 
 > [!IMPORTANT]
-> `src/cookiecutter-terragrunt` is not currently used.
+> `src/cookiecutter_terragrunt` is not currently used.
 
 package:
 ```shell
