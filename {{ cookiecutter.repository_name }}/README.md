@@ -1,4 +1,4 @@
-[//]: # (todo: template & correct)
+[//]: # (todo: template)
 # cookiecutter-terragrunt
 
 A [`cookiecutter`](https://github.com/cookiecutter/cookiecutter) template for [`terragrunt`](https://github.com/gruntwork-io/terragrunt).

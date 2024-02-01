@@ -1,7 +1,9 @@
+# todo: template
+# todo: generate cluster inits
 [tool.poetry]
 name = "cookiecutter-test"
 version = "0.1.0"
-description = ""  # todo
+description = ""
 license = "MIT"
 authors = ["caerulescens <caerulescens.github@proton.me>"]
 maintainers = ["caerulescens <caerulescens.github@proton.me>"]
