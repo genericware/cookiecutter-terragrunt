@@ -1,45 +1,22 @@
 [tool.poetry]
 name = "cookiecutter-terragrunt"
 version = "0.1.0"
-description = "A cookiecutter template for terragrunt projects."
-license = "MIT"
+description = ""
 authors = ["caerulescens <caerulescens.github@proton.me>"]
-maintainers = ["caerulescens <caerulescens.github@proton.me>"]
 readme = "README.md"
 packages = [{include = "cookiecutter_terragrunt", from = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
 cookiecutter = "^2.5.0"
-pydantic = "^2.5.2"
-pydantic-settings = "^2.1.0"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.4.2"
-pytest-asyncio = "^0.21.1"
-pytest-cov = "^4.1.0"
-pytest-sugar = "^0.9.7"
-tftest = "^1.8.5"
-coverage = {extras = ["toml"], version = "^7.3.2"}
-tox = "^4.11.4"
-sphinx = "^7.2.6"
-sphinx_rtd_theme = "2.0.0"
-myst-parser = "^2.0.0"
-cython = "^3.0.2"
-
-[tool.pytest.ini_options]
-minversion = "7.1.1"
-addopts = "-ra -q"
-asyncio_mode = "auto"
-testpaths = ["tests"]
-
-[tool.coverage.run]
-branch = true
+ruff = "^0.1.7"
 
 [tool.ruff]
 line-length = 88
 target-version = "py310"
-src = ["src", "tests", "docs"]
+src = ["src", "tests"]
 select = ["F", "E", "W", "C90", "S", "I", "N", "D", "UP"]
 ignore = ["D100", "D104", "D106", "N999"]
 
