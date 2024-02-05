@@ -1,1 +1,0 @@
-# todo: parametrize cookiecutter.json

@@ -10,15 +10,12 @@ packages = [{include = "cookiecutter_terragrunt", from = "src"}]
 python = ">=3.10,<3.13"
 cookiecutter = "^2.5.0"
 
-[tool.poetry.group.dev.dependencies]
-ruff = "^0.1.7"
-
 [tool.ruff]
 line-length = 88
 target-version = "py310"
 src = ["src", "tests"]
 select = ["F", "E", "W", "C90", "S", "I", "N", "D", "UP"]
-ignore = ["D100", "D104", "D106", "N999"]
+ignore = ["N999", "D100", "D104"]
 
 [tool.ruff.pydocstyle]
 convention = "pep257"
