@@ -12,6 +12,10 @@ repos:
       - id: check-json
       - id: check-shebang-scripts-are-executable
       - id: pretty-format-json
+        args:
+          - "--autofix"
+          - "--indent=4"
+          - "--no-sort-keys"
       - id: check-merge-conflict
       - id: check-symlinks
       - id: check-toml
